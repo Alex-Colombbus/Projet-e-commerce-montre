@@ -1,0 +1,10 @@
+<?php
+require_once("../includes/header.inc.php");
+require_once("../includes/functions.inc.php");
+?>
+<main>
+      <h1>Profil</h1>
+</main>
+<?php
+require_once("../includes/footer.inc.php");
+?>
