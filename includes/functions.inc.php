@@ -2,8 +2,20 @@
 session_start();
 define("RACINE_SITE", "http://localhost/");
 
-// echo "test";
+// Constante du serveur
+define("DBHOST", "localhost");
 
+// constante de l'utilisateur de la BDD du serveur en local => root
+define("DBUSER", "root");
+
+// constante pour le mot de passe de serveur en local => pas de mot de passe
+define("DBPASS", "");
+
+// Constante pour le nom de la BDD
+define("DBNAME", "maison_du_temps");
+
+// echo "test";
+// ************UTILITAIRES ALERTE ET DEBUG********************************************************************
 function alert(string $contenu, string $class): string
 {
       return "<div class=\"alert alert-$class alert-dismissible fade show text-center w-50 m-auto mb-5\" role=\"alert\">
@@ -12,20 +24,12 @@ function alert(string $contenu, string $class): string
             </div>";
 }
 
-
-// Constante du serveur
-define("DBHOST", "localhost");
-
-// // constante de l'utilisateur de la BDD du serveur en local => root
-define("DBUSER", "root");
-
-// // constante pour le mot de passe de serveur en local => pas de mot de passe
-define("DBPASS", "");
-
-// // Constante pour le nom de la BDD
-define("DBNAME", "maison_du_temps");
-
-
+function debug ($var) {
+    echo '<pre class= "border border-dark bg-light text-danger fw-bold w-50 p-5 mt-5">';
+        var_dump($var);
+    echo '</pre>';
+}
+//*************************************************************************************************************** */
 
 
 
