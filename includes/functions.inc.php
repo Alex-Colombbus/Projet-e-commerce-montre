@@ -15,7 +15,7 @@ define("DBPASS", "");
 define("DBNAME", "maison_du_temps");
 
 // echo "test";
-// ************UTILITAIRES ALERTE ET DEBUG********************************************************************
+// ************UTILITAIRES ALERTE ET DEBUG*******************************************************************
 function alert(string $contenu, string $class): string
 {
       return "<div class=\"alert alert-$class alert-dismissible fade show text-center w-50 m-auto mb-5\" role=\"alert\">
