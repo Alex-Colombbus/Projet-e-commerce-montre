@@ -1,6 +1,6 @@
 <?php
 session_start();
-define("RACINE_SITE", "http://localhost/");
+define("RACINE_SITE", "http://localhost/Projet%20e-commerce%20montre/");
 
 // Constante du serveur
 define("DBHOST", "localhost");
@@ -24,10 +24,11 @@ function alert(string $contenu, string $class): string
             </div>";
 }
 
-function debug ($var) {
-    echo '<pre class= "border border-dark bg-light text-danger fw-bold w-50 p-5 mt-5">';
-        var_dump($var);
-    echo '</pre>';
+function debug($var)
+{
+      echo '<pre class= "border border-dark bg-light text-danger fw-bold w-50 p-5 mt-5">';
+      var_dump($var);
+      echo '</pre>';
 }
 //*************************************************************************************************************** */
 

@@ -14,7 +14,7 @@
             <div class="container-fluid">
 
 
-                  <a class="navbar-brand" href="index.html">Maison du temps</a>
+                  <a class="navbar-brand" href="<?= RACINE_SITE ?>index.php">Maison du temps</a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -22,13 +22,13 @@
                   <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                         <ul class="navbar-nav">
                               <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#">Inscription</a>
+                                    <a class="nav-link active" href="<?= RACINE_SITE ?>auth/login.php">Connexion</a>
                               </li>
                               <li class="nav-item">
                                     <a class="nav-link" href="#">Panier</a>
                               </li>
                               <li class="nav-item">
-                                    <a class="nav-link" href="#">Deconnexion</a>
+                                    <a class="nav-link" href="<?= RACINE_SITE ?>auth/logout.php">Deconnexion</a>
                               </li>
 
                         </ul>
