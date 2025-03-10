@@ -25,7 +25,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                         $info .= alert("Le champ nom n'est pas valide", "danger");
                   }
 
-                  if (!isset($_POST['prenom']) || strlen(trim($_POST['prenom'])) > 50) {
+                  if (!isset($_POST['prenom']) || strlen(trim($_POST['prenom'])) < 2 || strlen(trim($_POST['prenom'])) > 50) {
                         $info .= alert("Le champ prénom n'est pas valide", "danger");
                   }
 

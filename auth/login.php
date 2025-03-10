@@ -53,6 +53,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                               $_SESSION['client'] = $user; // nous créons une session avec les infos de l'utilisateur provenant de la BDD
                               // debug($_SESSION['client']);
                               // $_SESSION['panier'] = "Yaya";
+
                               header("location:profil.php"); // permet de faire des redirections (header() -> c'est une fonction php)
 
                               // ------------- header() (fonction php) doit TOUJOURS être placée AVANT le header de notre html, c'est pourquoi on déplace notre require_once "inc/header.inc.php"; APRES header(). -----------------
@@ -73,6 +74,12 @@ require_once("../includes/header.inc.php");
 <main>
       <h1>Login</h1>
       <?php echo $info ?>
+      <?php
+      echo "<pre>";
+      var_dump($_SESSION['client']);
+      echo "</pre>";
+
+      ?>
       <form method="post" action="" class="">
             <div class="mb-3 col-sm-12 col-md-8">
                   <label for="nom" class="form-label">Nom</label>

@@ -1,5 +1,5 @@
 <?php
-
+session_start();
 define("RACINE_SITE", "http://localhost/");
 
 // echo "test";
