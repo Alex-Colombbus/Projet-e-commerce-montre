@@ -75,9 +75,9 @@ require_once("../includes/header.inc.php");
       <h1>Login</h1>
       <?php echo $info ?>
       <?php
-      echo "<pre>";
-      var_dump($_SESSION['client']);
-      echo "</pre>";
+      // echo "<pre>";
+      // var_dump($_SESSION['client']);
+      // echo "</pre>";
 
       ?>
       <form method="post" action="" class="">

@@ -21,12 +21,34 @@
                   </button>
                   <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                         <ul class="navbar-nav">
-                              <li class="nav-item">
-                                    <a class="nav-link active" href="<?= RACINE_SITE ?>auth/login.php">Connexion</a>
-                              </li>
+                              <?php
+                              if (!isset($_SESSION['client'])) {
+                              ?>
+                                    <li class="nav-item">
+                                          <a class="nav-link active" href="<?= RACINE_SITE ?>auth/login.php">Connexion</a>
+                                    </li>
+                              <?php } else { ?>
+                                    <li class="nav-item">
+                                          <a class="nav-link active" href="<?= RACINE_SITE ?>auth/profil.php">Profil</a>
+                                    </li>
+
+
+                                    <?php
+
+                                    // cache le dashboard pour les non admins
+                                    if ($_SESSION['client']['role'] == 'admin') {
+
+                                    ?>
+                                          <li class="nav-item">
+                                                <a class="nav-link" href="<?= RACINE_SITE ?>admin/dashboard.php">Dashboard</a>
+                                          </li>
+                                    <?php } ?>
+                              <?php } ?>
+
                               <li class="nav-item">
                                     <a class="nav-link" href="#">Panier</a>
                               </li>
+
                               <li class="nav-item">
                                     <a class="nav-link" href="<?= RACINE_SITE ?>auth/logout.php">Deconnexion</a>
                               </li>

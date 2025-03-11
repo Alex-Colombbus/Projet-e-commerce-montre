@@ -1,5 +1,6 @@
 <?php
 session_start();
+
 define("RACINE_SITE", "http://localhost/Projet%20e-commerce%20montre/");
 
 // Constante du serveur

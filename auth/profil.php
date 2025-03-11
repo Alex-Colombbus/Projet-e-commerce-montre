@@ -1,5 +1,11 @@
 <?php
 require_once("../includes/functions.inc.php");
+
+if (!isset($_SESSION['client'])) {
+      header("location: " . RACINE_SITE . "auth/login.php");
+      exit();
+}
+
 require_once("../includes/header.inc.php");
 ?>
 <main>
