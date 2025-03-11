@@ -48,7 +48,7 @@ ul a {
 }
 
 ul a::before {
-    content: '';
+    content: "";
     position: absolute;
     width: 100%;
     height: 2px;
@@ -58,15 +58,13 @@ ul a::before {
     left: 0;
     transform-origin: right;
     transform: scaleX(0);
-    transition: transform .3s ease-in-out;
+    transition: transform 0.3s ease-in-out;
 }
 
 ul a:hover::before {
     transform-origin: left;
     transform: scaleX(1);
 }
-
-
 
 .carte-montre {
     /* width: 200px; */
@@ -78,7 +76,6 @@ ul a:hover::before {
 
 .carte-montre img {
     width: 100%;
-
 }
 
 .reference {
@@ -88,5 +85,11 @@ ul a:hover::before {
 .ft-btn-produit {
     background-color: var(--vert-light);
     color: var(--vert-deep);
+}
 
+#hero {
+    background: url(../img/couple.jpg) center center no-repeat;
+    background-size: cover;
+    height: 630px;
+    color: white;
 }
