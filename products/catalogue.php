@@ -54,6 +54,18 @@ require_once("../includes/header.inc.php");
                                           </h2>
                                           <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
                                                 <div class="accordion-body">
+                                                      <div class="form-check">
+                                                            <input class="form-check-input" type="checkbox" value="timex" id="checkboxtimex">
+                                                            <label class="form-check-label" for="checkboxtimex">
+                                                                  Timex
+                                                            </label>
+                                                      </div>
+                                                      <div class="form-check">
+                                                            <input class="form-check-input" type="checkbox" value="casio" id="checkboxCasio">
+                                                            <label class="form-check-label" for="checkboxCasio">
+                                                                  Casio
+                                                            </label>
+                                                      </div>
 
                                                 </div>
                                           </div>
@@ -61,12 +73,18 @@ require_once("../includes/header.inc.php");
                                     <div class="accordion-item">
                                           <h2 class="accordion-header">
                                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-                                                      Accordion Item #3
+                                                      Type d'affichage
                                                 </button>
                                           </h2>
                                           <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
                                                 <div class="accordion-body">
-                                                      <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                                      <div class="form-check">
+                                                            <input class="form-check-input" type="checkbox" value="casio" id="checkboxAnalogique">
+                                                            <label class="form-check-label" for="checkboxAnalogique">
+                                                                  Analogique
+                                                            </label>
+                                                      </div>
+
                                                 </div>
                                           </div>
                                     </div>
