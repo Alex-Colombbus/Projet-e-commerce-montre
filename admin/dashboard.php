@@ -1,6 +1,11 @@
 <?php
 
 require_once("../includes/functions.inc.php");
+if ($_SESSION['client']['role'] == 'client' || !isset($_SESSION['client'])) {
+
+      header("location: " . RACINE_SITE . "/index.php");
+      exit();
+}
 require_once("../includes/header.inc.php");
 ?>
 

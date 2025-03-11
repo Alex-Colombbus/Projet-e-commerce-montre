@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-define("RACINE_SITE", "http://localhost/Projet%20e-commerce%20montre/");
+define("RACINE_SITE", "http://localhost/Projet_e-commerce_montre/");
 
 // Constante du serveur
 define("DBHOST", "localhost");
