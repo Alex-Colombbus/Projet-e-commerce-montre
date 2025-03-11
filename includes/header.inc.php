@@ -39,7 +39,6 @@
                                           <a class="nav-link px-4 active" href="<?= RACINE_SITE ?>auth/profil.php"><i class="bi bi-person-gear"></i></a>
                                     </li>
 
-
                                     <?php
 
                                     // cache le dashboard pour les non admins
@@ -52,13 +51,18 @@
                                     <?php } ?>
                               <?php } ?>
 
-                              <li class="nav-item">
-                                    <a class="nav-link px-4" href="#"><i class="bi bi-cart3"></i></a>
-                              </li>
-
-                              <li class="nav-item">
-                                    <a class="nav-link px-4" href="<?= RACINE_SITE ?>auth/logout.php"><i class="bi bi-x"></i></a>
-                              </li>
+                                    <li class="nav-item">
+                                          <a class="nav-link px-4" href="#"><i class="bi bi-cart3"></i></a>
+                                    </li>
+                              <?php
+                                    // test connexion pour affichage de la deconnexion
+                                    if(isset($_SESSION['client'])) {
+                              ?>
+                                    <li class="nav-item ">
+                                    <li class="nav-item">
+                                          <a class="nav-link px-4" href="<?= RACINE_SITE ?>auth/logout.php"><i class="bi bi-x"></i></a>
+                                    </li>
+                              <?php } ?>
 
                         </ul>
                   </div>
