@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap");
+
+:root {
+    --blue: #446ab1;
+    --vert-border: #0bde8a;
+    --vert-deep: #16996d;
+    --vert-light: #ebfff1;
+    --blue-font: #1f4690;
+    --yellow-line: #e1c745;
+    /* font-size: 62.5%; */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+nav a {
+    color: white !important;
+}
+
+.nav-color {
+    background-color: var(--blue);
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Playfair Display SC";
+}
+
+.line {
+    width: 50%;
+    background-color: white;
+    height: 0.5px;
+    margin: auto;
+}

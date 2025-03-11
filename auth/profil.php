@@ -1,5 +1,8 @@
 <?php
+
+
 require_once("../includes/functions.inc.php");
+
 
 if (!isset($_SESSION['client'])) {
       header("location: " . RACINE_SITE . "auth/login.php");
@@ -11,7 +14,7 @@ require_once("../includes/header.inc.php");
 <main>
       <h1>Profil</h1>
 
-      <h2 class="text-center mb-5">Bonjour <?= $_SESSION['client']['nom'] ?> </h2>
+      <h2 class="text-center mb-5">Bonjour wesh bro <?= $_SESSION['client']['nom'] ?> </h2>
 
 
       <div class="container">
