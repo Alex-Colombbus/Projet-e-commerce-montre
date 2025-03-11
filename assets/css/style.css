@@ -65,3 +65,28 @@ ul a:hover::before {
     transform-origin: left;
     transform: scaleX(1);
 }
+
+
+
+.carte-montre {
+    /* width: 200px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.carte-montre img {
+    width: 100%;
+
+}
+
+.reference {
+    color: grey;
+}
+
+.ft-btn-produit {
+    background-color: var(--vert-light);
+    color: var(--vert-deep);
+
+}
