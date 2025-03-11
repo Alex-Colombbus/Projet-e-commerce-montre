@@ -20,7 +20,7 @@
             <div class="container-fluid ">
 
 
-                  <a class="navbar-brand" href="<?= RACINE_SITE ?>index.php"><img src="<?= RACINE_SITE ?>assets/img/logoMaisonduTemps.png" alt="Maison du Temps" width="150" height="auto"></a>
+                  <a class="navbar-brand" href="<?= RACINE_SITE ?>index.php"><img src="<?= RACINE_SITE ?>assets/img/logoMaisonduTemps.png" alt="Maison du Temps" width="200px" height="auto"></a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -71,19 +71,19 @@
             <div class="line"></div>
             <ul class="navbar-nav flex-row justify-content-center">
                   <li class="nav-item">
-                        <a class="nav-link p-3" href="#">Marques</a>
+                        <a class="nav-link m-3" href="#">Marques</a>
                   </li>
                   <li class="nav-item">
-                        <a class="nav-link p-3" href="#">Hommes</a>
+                        <a class="nav-link m-3" href="#">Hommes</a>
                   </li>
                   <li class="nav-item">
-                        <a class="nav-link p-3" href="#">Femmes</a>
+                        <a class="nav-link m-3" href="#">Femmes</a>
                   </li>
                   <li class="nav-item">
-                        <a class="nav-link p-3" href="#">Garçons</a>
+                        <a class="nav-link m-3" href="#">Garçons</a>
                   </li>
                   <li class="nav-item">
-                        <a class="nav-link p-3" href="#">Filles</a>
+                        <a class="nav-link m-3" href="#">Filles</a>
                   </li>
 
             </ul>
