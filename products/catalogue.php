@@ -4,20 +4,20 @@ require_once("../includes/header.inc.php");
 ?>
 
 <main>
-      <section class="banniere">
-            <img src="../assets/img/timex-banniere.webp" alt="banniere timex">
+      <section class="banniere d-flex justify-content-center ">
+            <img class="col-10 p-4" src="../assets/img/timex-banniere.webp" alt="banniere timex">
       </section>
-      <section class="container-fluid">
+      <section class="container">
             <div class="row">
-                  <div class="filtres">
+                  <div class="filtres pt-4 col-2">
                         <form action="">
                               <div class="accordion" id="accordeonOpen">
                                     <div class="accordion-item">
-                                          <h2 class="accordion-header">
+                                          <h4 class="accordion-header">
                                                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
                                                       Sexe
                                                 </button>
-                                          </h2>
+                                          </h4>
                                           <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
                                                 <div class="accordion-body">
                                                       <div class="form-check">
@@ -47,11 +47,11 @@ require_once("../includes/header.inc.php");
                                           </div>
                                     </div>
                                     <div class="accordion-item">
-                                          <h2 class="accordion-header">
+                                          <h4 class="accordion-header">
                                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
                                                       Marques
                                                 </button>
-                                          </h2>
+                                          </h4>
                                           <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
                                                 <div class="accordion-body">
                                                       <div class="form-check">
@@ -71,17 +71,29 @@ require_once("../includes/header.inc.php");
                                           </div>
                                     </div>
                                     <div class="accordion-item">
-                                          <h2 class="accordion-header">
+                                          <h4 class="accordion-header">
                                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
                                                       Type d'affichage
                                                 </button>
-                                          </h2>
+                                          </h4>
                                           <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
                                                 <div class="accordion-body">
                                                       <div class="form-check">
-                                                            <input class="form-check-input" type="checkbox" value="casio" id="checkboxAnalogique">
+                                                            <input class="form-check-input" type="checkbox" value="analogique" id="checkboxAnalogique">
                                                             <label class="form-check-label" for="checkboxAnalogique">
                                                                   Analogique
+                                                            </label>
+                                                      </div>
+                                                      <div class="form-check">
+                                                            <input class="form-check-input" type="checkbox" value="numerique" id="checkboxNumerique">
+                                                            <label class="form-check-label" for="checkboxNumerique">
+                                                                  Numérique
+                                                            </label>
+                                                      </div>
+                                                      <div class="form-check">
+                                                            <input class="form-check-input" type="checkbox" value="montreConnectee" id="checkboxMontreConnectee">
+                                                            <label class="form-check-label" for="checkboxMontreConnectee">
+                                                                  Montre Connectée
                                                             </label>
                                                       </div>
 
@@ -92,7 +104,7 @@ require_once("../includes/header.inc.php");
                         </form>
 
                   </div>
-                  <div class="cartes-montres container col-10">
+                  <div class="cartes-montres pt-3 container col-8">
                         <div class="row">
                               <div class="carte-montre p-3 col-sm-4 col-md-3">
                                     <img src="../assets/img/photos_montres/timex_Q_TW2W70800_1983_E-Line.webp" alt="Montre timex_Q_TW2W70800_1983_E-Line ">
