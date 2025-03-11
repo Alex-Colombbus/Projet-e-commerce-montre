@@ -4,7 +4,14 @@ require_once("./includes/header.inc.php");
 ?>
 
 <main>
-      <h1>INDEX</h1>
+      <div id="hero">
+
+            <h2>Choisissez votre partenaire de tous moments :</h2>
+            <h2>Votre montre Maison du Temps</h2>
+          
+      </div>
+
+      
 </main>
 
 <?php
