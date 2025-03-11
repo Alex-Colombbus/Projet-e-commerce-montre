@@ -72,30 +72,37 @@ require_once("../includes/header.inc.php");
 ?>
 
 <main>
-      <h1>Login</h1>
-      <?php echo $info ?>
-      <?php
-      // echo "<pre>";
-      // var_dump($_SESSION['client']);
-      // echo "</pre>";
 
-      ?>
-      <form method="post" action="" class="">
-            <div class="mb-3 col-sm-12 col-md-8">
-                  <label for="nom" class="form-label">Nom</label>
-                  <input type="text" class="form-control" id="nom" name="nom" aria-describedby="nom">
+      <div class="container py-4">
+            <h1>Login</h1>
+            <?php echo $info ?>
+            <?php
+            // echo "<pre>";
+            // var_dump($_SESSION['client']);
+            // echo "</pre>";
+
+            ?>
+            <form method="post" action="" class="">
+                  <div class="mb-3 col-sm-12 col-md-8">
+                        <label for="nom" class="form-label">Nom</label>
+                        <input type="text" class="form-control" id="nom" name="nom" aria-describedby="nom">
+                  </div>
+                  <div class="mb-3 col-sm-12 col-md-8">
+                        <label for=" email" class="form-label">Adresse e-mail</label>
+                        <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">Nous ne partagerons pas votre e-mail.</div>
+                  </div>
+                  <div class="mb-3 col-sm-12 col-md-8">
+                        <label for=" mdp" class="form-label">Mot de passe</label>
+                        <input type="password" class="form-control" id="mdp" name="mdp">
+                  </div>
+                  <button type="submit" class="btn btn-primary">Connexion</button>
+            </form>
+            <div>
+                  <p><a href="register.php">Vous n'avez pas de compte?</a></p>
+
             </div>
-            <div class="mb-3 col-sm-12 col-md-8">
-                  <label for=" email" class="form-label">Adresse e-mail</label>
-                  <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp">
-                  <div id="emailHelp" class="form-text">Nous ne partagerons pas votre e-mail.</div>
-            </div>
-            <div class="mb-3 col-sm-12 col-md-8">
-                  <label for=" mdp" class="form-label">Mot de passe</label>
-                  <input type="password" class="form-control" id="mdp" name="mdp">
-            </div>
-            <button type="submit" class="btn btn-primary">Connexion</button>
-      </form>
+      </div>
 </main>
 
 
