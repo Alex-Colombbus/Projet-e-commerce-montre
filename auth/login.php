@@ -96,6 +96,10 @@ require_once("../includes/header.inc.php");
             </div>
             <button type="submit" class="btn btn-primary">Connexion</button>
       </form>
+      <div>
+            <p><a href="register.php">Vous n'avez pas de compte?</a></p>
+
+      </div>
 </main>
 
 
