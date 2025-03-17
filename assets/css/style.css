@@ -2,7 +2,11 @@
 
 :root {
     --blue: #446ab1;
+<<<<<<< Updated upstream
     --blue-light: rgba(31, 70, 144, 0.32);
+=======
+    --vert-commander: #0DC936;
+>>>>>>> Stashed changes
     --vert-border: #0bde8a;
     --vert-deep: #16996d;
     --vert-light: #ebfff1;
@@ -116,3 +120,23 @@ ul a:hover::before {
     height: 70px;
     background-color: var(--blue);
 }
+<<<<<<< Updated upstream
+=======
+
+.ligneOr {
+    /* border: none; */
+    height: 5px;
+    color: var(--yellow-line);
+}
+
+.bouttonCommander {
+
+    background-color: var(--vert-commander);
+    color: white;
+
+}
+
+.stock {
+    color: var(--vert-commander);
+}
+>>>>>>> Stashed changes
