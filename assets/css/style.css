@@ -2,15 +2,6 @@
 
 :root {
     --blue: #446ab1;
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-    --blue-light: rgba(31, 70, 144, 0.32);
-=======
-    --vert-commander: #0DC936;
->>>>>>> Stashed changes
-=======
-    --vert-commander: #0DC936;
->>>>>>> Stashed changes
     --vert-border: #0bde8a;
     --vert-deep: #16996d;
     --vert-light: #ebfff1;
@@ -100,6 +91,7 @@ ul a:hover::before {
     background-color: var(--blue-font);
     color: white;
 }
+
 .logo-marque {
     width: 100%;
 }
@@ -107,6 +99,7 @@ ul a:hover::before {
 .blue-font {
     color: var(--blue-font);
 }
+
 .blue-light {
     background-color: var(--blue-light);
 }
@@ -124,30 +117,3 @@ ul a:hover::before {
     height: 70px;
     background-color: var(--blue);
 }
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
-
-.ligneOr {
-    /* border: none; */
-    height: 5px;
-    color: var(--yellow-line);
-}
-
-.bouttonCommander {
-
-    background-color: var(--vert-commander);
-    color: white;
-
-}
-
-.stock {
-    color: var(--vert-commander);
-<<<<<<< Updated upstream
-}
->>>>>>> Stashed changes
-=======
-}
->>>>>>> Stashed changes
