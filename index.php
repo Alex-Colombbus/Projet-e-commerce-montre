@@ -4,25 +4,50 @@ require_once("./includes/header.inc.php");
 ?>
 
 <main>
-      <section id="hero" class="container-fluid position-relative">
-            <div class="positon-absolute bottom-0 start-50  mb-3 ">
-                  <h2>Choisissez votre partenaire de tous moments :</h2>
+      <!-- Section Héros avec fond d'image -->
+      <section class="bg-dark text-white py-5" style="background: url('./assets/img/couple.jpg') no-repeat center bottom/cover; height: 400px">
+            <div class="container">
+                  <div class="">
+                        <div class="col-6">
+                              <h2 class="display-7">Choisissez votre partenaire de tous moments :</h2>
+                        </div>
+                  </div>
+                  <div class="d-flex">
+                        <div class="col-4">
+                        </div>
+                        <div class="col-8 text-end">
+                              <h2 class="display-7 text-end">Votre montre Maison du Temps.</h2>
+                        </div>
+                  </div>
+                  <div class="d-flex">
+                        <div class="col-8">
+                        </div>
+                        <div class="col-4 text-end pt-5">
+                              <a href="#produits" class="btn btn-sm px-3 rounded-pill ft-btn-hero">Découvrir</a>
+                        </div>
+                  </div>
             </div>
-
-            <h2>Votre montre Maison du Temps</h2>
-
       </section>
+
       <section id="categories-populaires"></section>
 
-      <section id="produits-phares" class="container-fluid">
+      <section id="produits-phares" class="container">
+            <h2 class="blue-font">Produits phares</h2>
             <div class="cartes-montres p-3 ">
                   <div class="row justify-content-center">
 
-                        <div class="card m-1 p-2 col-xs-6 col-sm-6 col-md-4 col-lg-3 col-xl-2" style="width: 12rem;">
-                              <img src="./assets/img/photos_montres/timex_Q_TW2W70800_1983_E-Line.webp" alt="Montre timex_Q_TW2W70800_1983_E-Line" class="card-img-top" alt="logo de marque">
+                        <div class="card m-1 p-2 " style="width: 12rem;">
+                              <img src="./assets/img/photos_montres/timex_Q_TW2W70800_1983_E-Line.webp" class="card-img-top" alt="logo de marque">
+                              <div class="card-body text-center">
+                                    <h5 class="card-title">TIMEX</h5>
+                                    <p class="card-text">référence(id)</p>
+                                    <p class="card-text">désignation 1</p>
+                                    <p class="card-text">50.00€</p>
+                                    <a href="#" class="btn ft-btn-produit">voir les produits</a>
+                              </div>
                         </div>
 
-                        <div class="card m-1 p-2 col-xs-6 col-sm-6 col-md-4 col-lg-3 col-xl-2" style="width: 12rem;">
+                        <div class="card m-1 p-2 " style="width: 12rem;">
                               <img src="./assets/img/photos_montres/timex_Q_TW2W70800_1983_E-Line.webp" alt="Montre timex_Q_TW2W70800_1983_E-Line" class="card-img-top" alt="logo de marque">
                               <div class="card-body text-center">
                                     <h5 class="card-title">TIMEX</h5>
@@ -32,7 +57,7 @@ require_once("./includes/header.inc.php");
                                     <a href="#" class="btn ft-btn-produit">voir les produits</a>
                               </div>
                         </div>
-                        <div class="card m-1 p-2 col-xs-6 col-sm-6 col-md-4 col-lg-3 col-xl-2" style="width: 12rem;">
+                        <div class="card m-1 p-2 " style="width: 12rem;">
                               <img src="./assets/img/photos_montres/timex_Q_TW2W70800_1983_E-Line.webp" alt="Montre timex_Q_TW2W70800_1983_E-Line" class="card-img-top" alt="logo de marque">
                               <div class="card-body text-center">
                                     <h5 class="card-title">TIMEX</h5>
@@ -80,7 +105,7 @@ require_once("./includes/header.inc.php");
             </div>
       </section>
       <section id="presentation" class="container">
-            <h2>Trouvez votre montre chez Maison du Temps</h2>
+            <h2 class="blue-font">Trouvez votre montre chez Maison du Temps</h2>
 
             <h5><strong>“Parce qu’une montre se choisit comme le reflet de soi, chez Maison du temps nous nous efforçons de vous proposer des montres qui vous ressemblent et vous accompagneront à tous moments de votre vie.”</strong>
                   <br>
@@ -117,41 +142,37 @@ require_once("./includes/header.inc.php");
             <br>
 
       </section>
-      <section id="marques-preferees" class="container-fluid">
-            <h2>Vos marques préférées</h2>
-            <div class="cartes-montres p-3 ">
-                  <div class="row justify-content-center">
+      <section id="marques-preferees" class="container-fluid blue-light">
+            <div class="container">
+                  <h2 class="blue-font">Vos marques préférées</h2>
+                  <div class="cartes-montres p-3 ">
+                        <div class="row">
+                              <div class="col-2 ">
+                                    <img class="logo-marque" src="./assets/img/logos_marques/aerowatch1-17705-5-300x300.webp" alt="montre TIMEX">
+                              </div>
 
-                        <div class="card m-1 p-2 col-xs-6 col-sm-6 col-md-4 col-lg-3 col-xl-2" style="width: 12rem;">
-                              <img src="./assets/img/photos_montres/timex_Q_TW2W70800_1983_E-Line.webp" alt="Montre timex_Q_TW2W70800_1983_E-Line" class="card-img-top" alt="montre TIMEX">
-                        </div>
+                              <div class="col-2 ">
+                                    <img class="logo-marque" src="./assets/img/logos_marques/calvinklein-10058-5-300x300.webp" alt="montre TIMEX">
+                              </div>
+                              <div class=" col-2 ">
+                                    <img class="logo-marque" src="./assets/img/logos_marques/casio-9917-5-300x300.webp" alt="montre TIMEX">
+                              </div>
 
-                        <div class="card m-1 p-2 col-xs-6 col-sm-6 col-md-4 col-lg-3 col-xl-2" style="width: 12rem;">
-                              <img src="./assets/img/photos_montres/timex_Q_TW2W70800_1983_E-Line.webp" alt="Montre timex_Q_TW2W70800_1983_E-Line" class="card-img-top" alt="montre TIMEX">
-                        </div>
-                        <div class="card m-1 p-2 col-xs-6 col-sm-6 col-md-4 col-lg-3 col-xl-2" style="width: 12rem;">
-                              <img src="./assets/img/photos_montres/timex_Q_TW2W70800_1983_E-Line.webp" alt="Montre timex_Q_TW2W70800_1983_E-Line" class="card-img-top" alt="montre TIMEX">
-                        </div>
+                              <div class=" col-2 ">
+                                    <img class="logo-marque" src="./assets/img/logos_marques/diesel-9911-5-300x300.webp" alt="montre TIMEX">
+                              </div>
 
-                        <div class="card m-1 p-2 col-md-4 col-lg-3 col-xl-2 d-none d-sm-none d-md-block d-lg-block d-xl-block" style="width: 12rem;">
-                              <img src="./assets/img/photos_montres/timex_Q_TW2W70800_1983_E-Line.webp" alt="Montre timex_Q_TW2W70800_1983_E-Line" class="card-img-top" alt="montre TIMEX">
-                        </div>
+                              <div class="col-2 ">
+                                    <img class="logo-marque" src="./assets/img/logos_marques/tissot25-22916-5-300x300.webp" alt="montre TIMEX">
+                              </div>
 
-                        <div class="card m-1 p-2 col-md-4 col-lg-3 col-xl-2 d-none d-sm-none d-md-block d-lg-block d-xl-block" style="width: 12rem;">
-                              <img src="./assets/img/photos_montres/timex_Q_TW2W70800_1983_E-Line.webp" alt="Montre timex_Q_TW2W70800_1983_E-Line" class="card-img-top" alt="montre TIMEX">
-                        </div>
-
-                        <div class="card m-1 p-2 col-md-4 col-lg-3 col-xl-2 d-none d-sm-none d-md-block d-lg-block d-xl-block" style="width: 12rem;">
-                              <img src="./assets/img/photos_montres/timex_Q_TW2W70800_1983_E-Line.webp" alt="Montre timex_Q_TW2W70800_1983_E-Line" class="card-img-top" alt="montre TIMEX">
+                              <div class="col-2 ">
+                                    <img class="logo-marque" src="./assets/img/logos_marques/timex-9956-5-300x300.webp" alt="montre TIMEX">
+                              </div>
                         </div>
                   </div>
-
             </div>
       </section>
-
-
-
-
 </main>
 
 <?php

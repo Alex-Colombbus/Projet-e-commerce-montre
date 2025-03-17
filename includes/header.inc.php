@@ -51,12 +51,12 @@
                                     <?php } ?>
                               <?php } ?>
 
-                                    <li class="nav-item">
-                                          <a class="nav-link px-4" href="#"><i class="bi bi-cart3"></i></a>
-                                    </li>
+                              <li class="nav-item">
+                                    <a class="nav-link px-4" href="#"><i class="bi bi-cart3"></i></a>
+                              </li>
                               <?php
-                                    // test connexion pour affichage de la deconnexion
-                                    if(isset($_SESSION['client'])) {
+                              // test connexion pour affichage de la deconnexion
+                              if (isset($_SESSION['client'])) {
                               ?>
                                     <li class="nav-item ">
                                     <li class="nav-item">

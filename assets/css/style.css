@@ -2,6 +2,7 @@
 
 :root {
     --blue: #446ab1;
+    --blue-light: rgba(31, 70, 144, 0.32);
     --vert-border: #0bde8a;
     --vert-deep: #16996d;
     --vert-light: #ebfff1;
@@ -87,13 +88,20 @@ ul a:hover::before {
     color: var(--vert-deep);
 }
 
-#hero {
-    background: url(../img/couple.jpg) center center no-repeat;
-    background-size: cover;
-    height: 630px;
+.ft-btn-hero {
+    background-color: var(--blue-font);
     color: white;
 }
+.logo-marque {
+    width: 100%;
+}
 
+.blue-font {
+    color: var(--blue-font);
+}
+.blue-light {
+    background-color: var(--blue-light);
+}
 
 /* ////////////////////////////// Page Catalogue ///////////////////////////////*/
 
@@ -101,7 +109,6 @@ ul a:hover::before {
     height: 400px;
     object-fit: cover;
 }
-
 
 /* ///////////////////////////// Produit /////////////////////////// */
 
