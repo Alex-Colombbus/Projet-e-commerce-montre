@@ -3,7 +3,11 @@
 :root {
     --blue: #446ab1;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     --blue-light: rgba(31, 70, 144, 0.32);
+=======
+    --vert-commander: #0DC936;
+>>>>>>> Stashed changes
 =======
     --vert-commander: #0DC936;
 >>>>>>> Stashed changes
@@ -121,7 +125,10 @@ ul a:hover::before {
     background-color: var(--blue);
 }
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 
 .ligneOr {
     /* border: none; */
@@ -138,5 +145,9 @@ ul a:hover::before {
 
 .stock {
     color: var(--vert-commander);
+<<<<<<< Updated upstream
+}
+>>>>>>> Stashed changes
+=======
 }
 >>>>>>> Stashed changes
