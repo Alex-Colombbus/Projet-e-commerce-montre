@@ -101,3 +101,11 @@ ul a:hover::before {
     height: 400px;
     object-fit: cover;
 }
+
+
+/* ///////////////////////////// Produit /////////////////////////// */
+
+.backgroundFicheProduit {
+    height: 70px;
+    background-color: var(--blue);
+}

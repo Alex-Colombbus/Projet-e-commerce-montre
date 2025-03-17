@@ -137,9 +137,9 @@ require_once("../includes/header.inc.php");
 
                   </div>
                   <div class="cartes-montres pt-3 container col-8">
-                        <div class="row">
+                        <div class="row justify-content-center">
                               <div class="carte-montre p-3 col-sm-4 col-md-3">
-                                    <img src="../assets/img/photos_montres/timex_Q_TW2W70800_1983_E-Line.webp" alt="Montre timex_Q_TW2W70800_1983_E-Line" alt="Image du produit">
+                                    <img src="../assets/img/photos_montres/timex_Q_TW2W70800_1983_E-Line.webp" alt="Montre timex_Q_TW2W70800_1983_E-Line">
                                     <h4 class="text-center pt-3">TIMEX</h4>
                                     <p class="reference text-center">référence(id)</p>
                                     <p class="text-center">désignation 1</p>
@@ -149,7 +149,7 @@ require_once("../includes/header.inc.php");
                                     </div>
                               </div>
                               <div class="carte-montre p-3 col-sm-4 col-md-3">
-                                    <img src="../assets/img/photos_montres/timex_Q_TW2W70800_1983_E-Line.webp" alt="Montre timex_Q_TW2W70800_1983_E-Line" alt="Image du produit">
+                                    <img src="../assets/img/photos_montres/timex_Q_TW2W70800_1983_E-Line.webp" alt="Montre timex_Q_TW2W70800_1983_E-Line">
                                     <h4 class="text-center pt-3">TIMEX</h4>
                                     <p class="reference text-center">référence(id)</p>
                                     <p class="text-center">désignation 1</p>
@@ -159,7 +159,7 @@ require_once("../includes/header.inc.php");
                                     </div>
                               </div>
                               <div class="carte-montre p-3 col-sm-4 col-md-3">
-                                    <img src="../assets/img/photos_montres/timex_Q_TW2W70800_1983_E-Line.webp" alt="Montre timex_Q_TW2W70800_1983_E-Line" alt="Image du produit">
+                                    <img src="../assets/img/photos_montres/timex_Q_TW2W70800_1983_E-Line.webp" alt="Montre timex_Q_TW2W70800_1983_E-Line">
                                     <h4 class="text-center pt-3">TIMEX</h4>
                                     <p class="reference text-center">référence(id)</p>
                                     <p class="text-center">désignation 1</p>
@@ -169,7 +169,7 @@ require_once("../includes/header.inc.php");
                                     </div>
                               </div>
                               <div class="carte-montre p-3 col-sm-4 col-md-3">
-                                    <img src="../assets/img/photos_montres/timex_Q_TW2W70800_1983_E-Line.webp" alt="Montre timex_Q_TW2W70800_1983_E-Line" alt="Image du produit">
+                                    <img src="../assets/img/photos_montres/timex_Q_TW2W70800_1983_E-Line.webp" alt="Montre timex_Q_TW2W70800_1983_E-Line">
                                     <h4 class="text-center pt-3">TIMEX</h4>
                                     <p class="reference text-center">référence(id)</p>
                                     <p class="text-center">désignation 1</p>
@@ -179,7 +179,7 @@ require_once("../includes/header.inc.php");
                                     </div>
                               </div>
                               <div class="carte-montre p-3 col-sm-4 col-md-3">
-                                    <img src="../assets/img/photos_montres/timex_Q_TW2W70800_1983_E-Line.webp" alt="Montre timex_Q_TW2W70800_1983_E-Line" alt="Image du produit">
+                                    <img src="../assets/img/photos_montres/timex_Q_TW2W70800_1983_E-Line.webp" alt="Montre timex_Q_TW2W70800_1983_E-Line">
                                     <h4 class="text-center pt-3">TIMEX</h4>
                                     <p class="reference text-center">référence(id)</p>
                                     <p class="text-center">désignation 1</p>
@@ -189,7 +189,7 @@ require_once("../includes/header.inc.php");
                                     </div>
                               </div>
                               <div class="carte-montre p-3 col-sm-4 col-md-3">
-                                    <img src="../assets/img/photos_montres/timex_Q_TW2W70800_1983_E-Line.webp" alt="Montre timex_Q_TW2W70800_1983_E-Line" alt="Image du produit">
+                                    <img src="../assets/img/photos_montres/timex_Q_TW2W70800_1983_E-Line.webp" alt="Montre timex_Q_TW2W70800_1983_E-Line">
                                     <h4 class="text-center pt-3">TIMEX</h4>
                                     <p class="reference text-center">référence(id)</p>
                                     <p class="text-center">désignation 1</p>
@@ -199,7 +199,7 @@ require_once("../includes/header.inc.php");
                                     </div>
                               </div>
                               <div class="carte-montre p-3 col-sm-4 col-md-3">
-                                    <img src="../assets/img/photos_montres/timex_Q_TW2W70800_1983_E-Line.webp" alt="Montre timex_Q_TW2W70800_1983_E-Line" alt="Image du produit">
+                                    <img src="../assets/img/photos_montres/timex_Q_TW2W70800_1983_E-Line.webp" alt="Montre timex_Q_TW2W70800_1983_E-Line">
                                     <h4 class="text-center pt-3">TIMEX</h4>
                                     <p class="reference text-center">référence(id)</p>
                                     <p class="text-center">désignation 1</p>
@@ -209,7 +209,7 @@ require_once("../includes/header.inc.php");
                                     </div>
                               </div>
                               <div class="carte-montre p-3 col-sm-4 col-md-3">
-                                    <img src="../assets/img/photos_montres/timex_Q_TW2W70800_1983_E-Line.webp" alt="Montre timex_Q_TW2W70800_1983_E-Line" alt="Image du produit">
+                                    <img src="../assets/img/photos_montres/timex_Q_TW2W70800_1983_E-Line.webp" alt="Montre timex_Q_TW2W70800_1983_E-Line">
                                     <h4 class="text-center pt-3">TIMEX</h4>
                                     <p class="reference text-center">référence(id)</p>
                                     <p class="text-center">désignation 1</p>
