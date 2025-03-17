@@ -4,8 +4,9 @@ require_once("../includes/header.inc.php");
 ?>
 
 <main>
-      <section class="banniere d-flex justify-content-center ">
-            <img class="col-10 p-4" src="../assets/img/timex-banniere.webp" alt="banniere timex">
+      <section class="container banniere d-flex justify-content-center">
+
+            <img class="col imageBanniere p-4" src="../assets/img/timex-banniere.webp" alt="banniere timex">
       </section>
       <section class="container">
             <div class="row">
@@ -100,6 +101,37 @@ require_once("../includes/header.inc.php");
                                                 </div>
                                           </div>
                                     </div>
+                                    <div class="accordion-item">
+                                          <h4 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+                                                      Couleur
+                                                </button>
+                                          </h4>
+                                          <!-- UTILISATION D'UNE BOUCLE POUR AFFICHER LES DIFFERENTE COULEURS -->
+                                          <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse">
+                                                <div class="accordion-body">
+                                                      <div class="form-check">
+                                                            <input class="form-check-input" type="checkbox" value="noir" id="checkboxNoir">
+                                                            <label class="form-check-label" for="checkboxNoir">
+                                                                  Noir
+                                                            </label>
+                                                      </div>
+                                                      <div class="form-check">
+                                                            <input class="form-check-input" type="checkbox" value="blanc" id="checkboxBlanc">
+                                                            <label class="form-check-label" for="checkboxBlanc">
+                                                                  Blanc
+                                                            </label>
+                                                      </div>
+                                                      <div class="form-check">
+                                                            <input class="form-check-input" type="checkbox" value="vert" id="checkboxVert">
+                                                            <label class="form-check-label" for="checkboxVert">
+                                                                  Vert
+                                                            </label>
+                                                      </div>
+
+                                                </div>
+                                          </div>
+                                    </div>
                               </div>
                         </form>
 
@@ -107,162 +139,88 @@ require_once("../includes/header.inc.php");
                   <div class="cartes-montres pt-3 container col-8">
                         <div class="row">
                               <div class="carte-montre p-3 col-sm-4 col-md-3">
-                                    <img src="../assets/img/photos_montres/timex_Q_TW2W70800_1983_E-Line.webp" alt="Montre timex_Q_TW2W70800_1983_E-Line ">
-                                    <h4 class="text-center">Timex</h4>
+                                    <img src="../assets/img/photos_montres/timex_Q_TW2W70800_1983_E-Line.webp" alt="Montre timex_Q_TW2W70800_1983_E-Line" alt="Image du produit">
+                                    <h4 class="text-center pt-3">TIMEX</h4>
                                     <p class="reference text-center">référence(id)</p>
                                     <p class="text-center">désignation 1</p>
-                                    <h4 class="text-center">50.00€</h4>
+                                    <h4 class="text-center fw-bold">50.00€</h4>
                                     <div class="container d-flex justify-content-center">
                                           <button class="btn ft-btn-produit">Voir les produits</button>
                                     </div>
                               </div>
                               <div class="carte-montre p-3 col-sm-4 col-md-3">
-                                    <img src="../assets/img/photos_montres/timex_Q_TW2W70800_1983_E-Line.webp" alt="Montre timex_Q_TW2W70800_1983_E-Line ">
-                                    <h4 class="text-center">Timex</h4>
+                                    <img src="../assets/img/photos_montres/timex_Q_TW2W70800_1983_E-Line.webp" alt="Montre timex_Q_TW2W70800_1983_E-Line" alt="Image du produit">
+                                    <h4 class="text-center pt-3">TIMEX</h4>
                                     <p class="reference text-center">référence(id)</p>
                                     <p class="text-center">désignation 1</p>
-                                    <h4 class="text-center">50.00€</h4>
+                                    <h4 class="text-center fw-bold">50.00€</h4>
                                     <div class="container d-flex justify-content-center">
                                           <button class="btn ft-btn-produit">Voir les produits</button>
                                     </div>
                               </div>
                               <div class="carte-montre p-3 col-sm-4 col-md-3">
-                                    <img src="../assets/img/photos_montres/timex_Q_TW2W70800_1983_E-Line.webp" alt="Montre timex_Q_TW2W70800_1983_E-Line ">
-                                    <h4 class="text-center">Timex</h4>
+                                    <img src="../assets/img/photos_montres/timex_Q_TW2W70800_1983_E-Line.webp" alt="Montre timex_Q_TW2W70800_1983_E-Line" alt="Image du produit">
+                                    <h4 class="text-center pt-3">TIMEX</h4>
                                     <p class="reference text-center">référence(id)</p>
                                     <p class="text-center">désignation 1</p>
-                                    <h4 class="text-center">50.00€</h4>
+                                    <h4 class="text-center fw-bold">50.00€</h4>
                                     <div class="container d-flex justify-content-center">
                                           <button class="btn ft-btn-produit">Voir les produits</button>
                                     </div>
                               </div>
                               <div class="carte-montre p-3 col-sm-4 col-md-3">
-                                    <img src="../assets/img/photos_montres/timex_Q_TW2W70800_1983_E-Line.webp" alt="Montre timex_Q_TW2W70800_1983_E-Line ">
-                                    <h4 class="text-center">Timex</h4>
+                                    <img src="../assets/img/photos_montres/timex_Q_TW2W70800_1983_E-Line.webp" alt="Montre timex_Q_TW2W70800_1983_E-Line" alt="Image du produit">
+                                    <h4 class="text-center pt-3">TIMEX</h4>
                                     <p class="reference text-center">référence(id)</p>
                                     <p class="text-center">désignation 1</p>
-                                    <h4 class="text-center">50.00€</h4>
+                                    <h4 class="text-center fw-bold">50.00€</h4>
                                     <div class="container d-flex justify-content-center">
                                           <button class="btn ft-btn-produit">Voir les produits</button>
                                     </div>
                               </div>
                               <div class="carte-montre p-3 col-sm-4 col-md-3">
-                                    <img src="../assets/img/photos_montres/timex_Q_TW2W70800_1983_E-Line.webp" alt="Montre timex_Q_TW2W70800_1983_E-Line ">
-                                    <h4 class="text-center">Timex</h4>
+                                    <img src="../assets/img/photos_montres/timex_Q_TW2W70800_1983_E-Line.webp" alt="Montre timex_Q_TW2W70800_1983_E-Line" alt="Image du produit">
+                                    <h4 class="text-center pt-3">TIMEX</h4>
                                     <p class="reference text-center">référence(id)</p>
                                     <p class="text-center">désignation 1</p>
-                                    <h4 class="text-center">50.00€</h4>
+                                    <h4 class="text-center fw-bold">50.00€</h4>
                                     <div class="container d-flex justify-content-center">
                                           <button class="btn ft-btn-produit">Voir les produits</button>
                                     </div>
                               </div>
                               <div class="carte-montre p-3 col-sm-4 col-md-3">
-                                    <img src="../assets/img/photos_montres/timex_Q_TW2W70800_1983_E-Line.webp" alt="Montre timex_Q_TW2W70800_1983_E-Line ">
-                                    <h4 class="text-center">Timex</h4>
+                                    <img src="../assets/img/photos_montres/timex_Q_TW2W70800_1983_E-Line.webp" alt="Montre timex_Q_TW2W70800_1983_E-Line" alt="Image du produit">
+                                    <h4 class="text-center pt-3">TIMEX</h4>
                                     <p class="reference text-center">référence(id)</p>
                                     <p class="text-center">désignation 1</p>
-                                    <h4 class="text-center">50.00€</h4>
+                                    <h4 class="text-center fw-bold">50.00€</h4>
                                     <div class="container d-flex justify-content-center">
                                           <button class="btn ft-btn-produit">Voir les produits</button>
                                     </div>
                               </div>
                               <div class="carte-montre p-3 col-sm-4 col-md-3">
-                                    <img src="../assets/img/photos_montres/timex_Q_TW2W70800_1983_E-Line.webp" alt="Montre timex_Q_TW2W70800_1983_E-Line ">
-                                    <h4 class="text-center">Timex</h4>
+                                    <img src="../assets/img/photos_montres/timex_Q_TW2W70800_1983_E-Line.webp" alt="Montre timex_Q_TW2W70800_1983_E-Line" alt="Image du produit">
+                                    <h4 class="text-center pt-3">TIMEX</h4>
                                     <p class="reference text-center">référence(id)</p>
                                     <p class="text-center">désignation 1</p>
-                                    <h4 class="text-center">50.00€</h4>
+                                    <h4 class="text-center fw-bold">50.00€</h4>
                                     <div class="container d-flex justify-content-center">
                                           <button class="btn ft-btn-produit">Voir les produits</button>
                                     </div>
                               </div>
                               <div class="carte-montre p-3 col-sm-4 col-md-3">
-                                    <img src="../assets/img/photos_montres/timex_Q_TW2W70800_1983_E-Line.webp" alt="Montre timex_Q_TW2W70800_1983_E-Line ">
-                                    <h4 class="text-center">Timex</h4>
+                                    <img src="../assets/img/photos_montres/timex_Q_TW2W70800_1983_E-Line.webp" alt="Montre timex_Q_TW2W70800_1983_E-Line" alt="Image du produit">
+                                    <h4 class="text-center pt-3">TIMEX</h4>
                                     <p class="reference text-center">référence(id)</p>
                                     <p class="text-center">désignation 1</p>
-                                    <h4 class="text-center">50.00€</h4>
+                                    <h4 class="text-center fw-bold">50.00€</h4>
                                     <div class="container d-flex justify-content-center">
                                           <button class="btn ft-btn-produit">Voir les produits</button>
                                     </div>
                               </div>
-                              <div class="carte-montre p-3 col-sm-4 col-md-3">
-                                    <img src="../assets/img/photos_montres/timex_Q_TW2W70800_1983_E-Line.webp" alt="Montre timex_Q_TW2W70800_1983_E-Line ">
-                                    <h4 class="text-center">Timex</h4>
-                                    <p class="reference text-center">référence(id)</p>
-                                    <p class="text-center">désignation 1</p>
-                                    <h4 class="text-center">50.00€</h4>
-                                    <div class="container d-flex justify-content-center">
-                                          <button class="btn ft-btn-produit">Voir les produits</button>
-                                    </div>
-                              </div>
-                              <div class="carte-montre p-3 col-sm-4 col-md-3">
-                                    <img src="../assets/img/photos_montres/timex_Q_TW2W70800_1983_E-Line.webp" alt="Montre timex_Q_TW2W70800_1983_E-Line ">
-                                    <h4 class="text-center">Timex</h4>
-                                    <p class="reference text-center">référence(id)</p>
-                                    <p class="text-center">désignation 1</p>
-                                    <h4 class="text-center">50.00€</h4>
-                                    <div class="container d-flex justify-content-center">
-                                          <button class="btn ft-btn-produit">Voir les produits</button>
-                                    </div>
-                              </div>
-                              <div class="carte-montre p-3 col-sm-4 col-md-3">
-                                    <img src="../assets/img/photos_montres/timex_Q_TW2W70800_1983_E-Line.webp" alt="Montre timex_Q_TW2W70800_1983_E-Line ">
-                                    <h4 class="text-center">Timex</h4>
-                                    <p class="reference text-center">référence(id)</p>
-                                    <p class="text-center">désignation 1</p>
-                                    <h4 class="text-center">50.00€</h4>
-                                    <div class="container d-flex justify-content-center">
-                                          <button class="btn ft-btn-produit">Voir les produits</button>
-                                    </div>
-                              </div>
-                              <div class="carte-montre p-3 col-sm-4 col-md-3">
-                                    <img src="../assets/img/photos_montres/timex_Q_TW2W70800_1983_E-Line.webp" alt="Montre timex_Q_TW2W70800_1983_E-Line ">
-                                    <h4 class="text-center">Timex</h4>
-                                    <p class="reference text-center">référence(id)</p>
-                                    <p class="text-center">désignation 1</p>
-                                    <h4 class="text-center">50.00€</h4>
-                                    <div class="container d-flex justify-content-center">
-                                          <button class="btn ft-btn-produit">Voir les produits</button>
-                                    </div>
-                              </div>
-                              <div class="carte-montre p-3 col-sm-4 col-md-3">
-                                    <img src="../assets/img/photos_montres/timex_Q_TW2W70800_1983_E-Line.webp" alt="Montre timex_Q_TW2W70800_1983_E-Line ">
-                                    <h4 class="text-center">Timex</h4>
-                                    <p class="reference text-center">référence(id)</p>
-                                    <p class="text-center">désignation 1</p>
-                                    <h4 class="text-center">50.00€</h4>
-                                    <div class="container d-flex justify-content-center">
-                                          <button class="btn ft-btn-produit">Voir les produits</button>
-                                    </div>
-                              </div>
-                              <div class="carte-montre p-3 col-sm-4 col-md-3">
-                                    <img src="../assets/img/photos_montres/timex_Q_TW2W70800_1983_E-Line.webp" alt="Montre timex_Q_TW2W70800_1983_E-Line ">
-                                    <h4 class="text-center">Timex</h4>
-                                    <p class="reference text-center">référence(id)</p>
-                                    <p class="text-center">désignation 1</p>
-                                    <h4 class="text-center">50.00€</h4>
-                                    <div class="container d-flex justify-content-center">
-                                          <button class="btn ft-btn-produit">Voir les produits</button>
-                                    </div>
-                              </div>
-                              <div class="carte-montre p-3 col-sm-4 col-md-3">
-                                    <img src="../assets/img/photos_montres/timex_Q_TW2W70800_1983_E-Line.webp" alt="Montre timex_Q_TW2W70800_1983_E-Line ">
-                                    <h4 class="text-center">Timex</h4>
-                                    <p class="reference text-center">référence(id)</p>
-                                    <p class="text-center">désignation 1</p>
-                                    <h4 class="text-center">50.00€</h4>
-                                    <div class="container d-flex justify-content-center">
-                                          <button class="btn ft-btn-produit">Voir les produits</button>
-                                    </div>
-                              </div>
-
-
 
                         </div>
-
                   </div>
-            </div>
 
       </section>
 </main>

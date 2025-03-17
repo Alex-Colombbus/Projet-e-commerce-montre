@@ -93,3 +93,11 @@ ul a:hover::before {
     height: 630px;
     color: white;
 }
+
+
+/* ////////////////////////////// Page Catalogue ///////////////////////////////*/
+
+.imageBanniere {
+    height: 400px;
+    object-fit: cover;
+}
