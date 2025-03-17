@@ -2,6 +2,7 @@
 
 :root {
     --blue: #446ab1;
+    --vert-commander: #0DC936;
     --vert-border: #0bde8a;
     --vert-deep: #16996d;
     --vert-light: #ebfff1;
@@ -116,4 +117,21 @@ ul a:hover::before {
 .backgroundFicheProduit {
     height: 70px;
     background-color: var(--blue);
+}
+
+.ligneOr {
+    /* border: none; */
+    height: 5px;
+    color: var(--yellow-line);
+}
+
+.bouttonCommander {
+
+    background-color: var(--vert-commander);
+    color: white;
+
+}
+
+.stock {
+    color: var(--vert-commander);
 }
